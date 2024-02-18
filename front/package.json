@@ -1,0 +1,73 @@
+{
+  "name": "quasar-project",
+  "version": "0.0.1",
+  "description": "A Quasar Project",
+  "productName": "Quasar App",
+  "author": "sungeun <seroh00@naver.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0",
+    "serve": "vue-cli-service serve",
+    "build": "quasar build",
+    "dev": "quasar dev"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "@vueuse/core": "^9.1.0",
+    "axios": "^1.6.5",
+    "core-js": "3.9.1",
+    "crypto-js": "^4.2.0",
+    "jquery": "3.7.1",
+    "js-cookie": "^3.0.5",
+    "openvidu-browser": "^2.29.0",
+    "pinia": "^2.1.7",
+    "pinia-plugin-persistedstate": "^3.2.1",
+    "quasar": "^2.14.3",
+    "routes": "^2.1.0",
+    "stompjs": "^2.3.3",
+    "vue": "^3.4.15",
+    "vue-pdf-embed": "^1.1.4",
+    "vue3-lottie": "^2.2.5",
+    "vue-router": "^4.2.5",
+    "event-source-polyfill": "1.0.31"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "7.19.1",
+    "@quasar/app-vite": "^1.0.0",
+    "@vue/cli-plugin-babel": "5.0.8",
+    "@vue/cli-plugin-eslint": "5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "autoprefixer": "^10.4.2",
+    "eslint": "^8.11.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "postcss": "^8.4.14",
+    "prettier": "^2.5.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "engines": {
+    "node": "^20 || ^18 || ^16",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
