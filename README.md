@@ -386,8 +386,3 @@ server
 </div>
 </details>
 
-### FeedUploadModal
-
-영상 녹화 후 피드를 업로드 및 수정할 수 있는 모달을 Quasar를 사용하여 생성하였습니다. 모달의 영상과, 게시글 내용, 공개 범위를 설정하여 업로드할 수 있습니다. 
-</div>
-</details>
